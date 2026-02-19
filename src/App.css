@@ -8,7 +8,7 @@
 
 .landing-page {
   position: relative;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   background-color: #f8f8f8;
 }
@@ -29,22 +29,19 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width: 100vw;
- top: 100px;
+  width: auto;
   backdrop-filter: blur(4px);
   background-color: rgba(0,0,0,0.5);
   gap: 20px;
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
-  transform: translate(-50%, -50%);
+  margin-top: 0;
+  margin-left: 0;
   z-index: 1;
   text-align: center;
-  /* background-color: red; */
   width: 400px;
-  height: 400px;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -63,7 +60,7 @@
 }
 
 .content p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .divider {
