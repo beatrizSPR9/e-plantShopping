@@ -303,7 +303,7 @@ function ProductList({ onHomeClick }) {
             </div>
             {!showCart ? (
                 <div className="product-grid">
-                    {plantsArray.map((category, index) => ( // Loop through each category in plantsArray
+                    {plantsArray.map((category, index) => ( 
                         <div key={index}> {/* Unique key for each category div */}
                             <h1 style={{ textAlign: 'center', margin: '20px 0' }}>
                                 <div>{category.category}</div> {/* Display the category name */}
